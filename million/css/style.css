@@ -1,0 +1,206 @@
+.container-fluid{
+    width: 100%;
+    min-height: 100vh;
+    background: url('https://i.makeagif.com/media/2-23-2016/8hC5pC.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.firstLook{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50px;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+ @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
+
+.start{
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    border-radius: 10px;
+    left: calc(50%-110px);
+    left: 39.5%;
+    top: 70%;
+}
+
+
+.image-area{
+    height: 60vh;
+    position: relative;
+}
+
+.image{
+  position: absolute;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.helps{
+    width: 66%;
+    margin-bottom: 47px;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.help{
+    width: 55px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-left: 6px;
+    padding-left: 3px;
+}
+
+.help1 > p {
+    color: white;
+    margin-left: 1px;
+    margin-top: 6px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.help3 > i {
+    color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.help4 > i {
+    color: white;
+    margin-left: 14px;
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.score-table{
+    width: 60%;
+    min-height: 90%;
+    border: 2px solid royalblue;
+    margin-top: 15px;
+}
+
+.score{
+    width: 80%;
+    color: #ffa700;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+
+.super-score{
+    color: white;
+}
+
+.win{
+    background: white;
+    color: black;
+}
+
+.fix{
+    animation-name: colors;
+    animation-duration: 1s;
+    animation-direction: initial;
+}
+
+@keyframes colors {
+    from {background-color: red;}
+    to {background-color: #ee4d21;}
+}
+
+.hide{
+    display: none;
+}
+
+.question{
+    width: 70%;
+    min-height: 80px;
+    margin: auto;
+    border: 3px solid royalblue;
+    border-radius: 10px; 
+}
+
+.answers{
+    width: 74%;
+    height: 150px;
+    margin-top: 10px;
+    margin:auto;
+}
+
+.answer{
+    width: 40%;
+    height: 60px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 68px;
+}
+
+
+.next{
+    margin-left: 47.5%;
+}
+
+
+.quest-text{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.answer-text{
+    color: white;
+    font-size: 20px;
+    text-align:left;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.orange{
+   background: orange; 
+}
+
+.green{
+    background: green;
+}
+
+.red{
+    background: red;
+}
+
+.final-div{
+    width: 60%;
+    margin: auto;
+}
+
+.final-div > p{
+    font-size: 90px;
+    text-align: center;
+    color: wheat;
+    padding-top: 150px;
+   
+}
+
+
